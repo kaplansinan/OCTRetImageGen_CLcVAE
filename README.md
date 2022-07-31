@@ -46,3 +46,13 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 <!--If reusing this repository, delete this section -->
 
 **Maintainers**
+---
+
+🎯 Roadmap
+---
+
+### Checklist for setting an online repository 
+
+- [ ] Add a README file
+- [ ] Add a [CONTRIBUTING](CONTRIBUTING.md) file
+- [ ] Add a [LICENSE](LICENSE.md)
