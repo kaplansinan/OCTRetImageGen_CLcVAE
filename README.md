@@ -1,9 +1,15 @@
 # OCTRetImageGen_CLcVAE
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-<!--If reusing this repository, delete this section -->
+*Contrastive Learning for Generating Optical Coherence Tomography Images of the Retina
 
+## About this Repository
+---
+The repository is intended to provide supplementary materials and source code of the experimentes conducted in the paper. The paper is submitted SASHIMI2022 Workshop as part of MICCAI 2022 Conference. 
 ## Repo Structure
-
+---
 Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
 
 ```
@@ -24,7 +30,7 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `1.0-jqp-initial-data-exploration`.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+├── reports            <- Generated supplementary material as PDF.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
 │
@@ -42,8 +48,18 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 │       └── visualise.py
 └──
 ```
+## Getting Started
+---
+Please follow the insturction here to install development stack, dowload data and conduct experiments. 
 
-<!--If reusing this repository, delete this section -->
+* [INSTALL.md](#INSTALL.md): Follow the insturction in this file to install development stack.
+* [DATAONBOARDING.md](#DATAONBOARDING.md): Follow the insturction in this file to download the data
+* [EXPERIMENTS.md](#EXPERIMENTS.md): Follow the insturction in this file to conduct explotary data analysis and train models.
+
+
+## Supplementary Materials
+
+We also provide the supplementary material mentioned in the repo. One may find it under [reports](#reports) directory.
 
 **Maintainers**
 ---
