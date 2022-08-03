@@ -17,20 +17,16 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 ├── README.md          <- The top-level README for users of this project.
 ├── INSTALLATION.md    <- Guidelines for users on how to install libraries/tools to conduct experiments.
 ├── DATAONBOARDING.md  <- Information on how to download and use the data.
-├── TRAINING.md        <- Guidelines for users to train modeld.
+├── ExPERIMENTS.md        <- Guidelines for users to train models.
 ├── data
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-│
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          <- Jupyter notebooks for exploratory data analysis and model training
 │
-├── reports            <- Generated supplementary material as PDF.
+├── reports            <- Generated supplementary materials.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
 │
