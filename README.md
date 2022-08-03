@@ -55,7 +55,7 @@ Please follow the insturction here to install development stack, dowload data an
 
 ## Supplementary Materials
 
-We also provide the supplementary material mentioned in the repo. One may find it under [reports](#reports) directory.
+We also provide the supplementary figures mentioned in the repo. One may find it mode information regarding them under [reports](#reports) directory.
 
 **Maintainers**
 ---
