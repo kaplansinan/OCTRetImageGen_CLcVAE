@@ -8,6 +8,8 @@
 ## About this Repository
 ---
 The repository is intended to provide supplementary materials and source code of the experimentes conducted in the paper. The paper is submitted SASHIMI2022 Workshop as part of MICCAI 2022 Conference. 
+
+<strong>The supplementary material</strong> can be found under `reports` folder. To acces it,click [here](/reports/Supplementary_material.pdf).
 ## Repo Structure
 ---
 Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
@@ -17,7 +19,7 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 ├── README.md          <- The top-level README for users of this project.
 ├── INSTALLATION.md    <- Guidelines for users on how to install libraries/tools to conduct experiments.
 ├── DATAONBOARDING.md  <- Information on how to download and use the data.
-├── ExPERIMENTS.md        <- Guidelines for users to train models.
+├── EXPERIMENTS.md     <- Guidelines for users to train models.
 ├── data
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
@@ -48,9 +50,9 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 ---
 Please follow the insturction here to install development stack, dowload data and conduct experiments. 
 
-* [INSTALL.md](#INSTALL.md): Follow the insturction in this file to install development stack.
-* [DATAONBOARDING.md](#DATAONBOARDING.md): Follow the insturction in this file to download the data
-* [EXPERIMENTS.md](#EXPERIMENTS.md): Follow the insturction in this file to conduct explotary data analysis and train models.
+* [INSTALL.md](INSTALL.md): Follow the insturction in this file to install development stack.
+* [DATAONBOARDING.md](DATAONBOARDING.md): Follow the insturction in this file to download the data
+* [EXPERIMENTS.md](EXPERIMENTS.md): Follow the insturction in this file to conduct explotary data analysis and train models.
 
 
 ## Supplementary Materials

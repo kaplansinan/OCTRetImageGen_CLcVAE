@@ -1,0 +1,33 @@
+jupyter==1.0.0
+numpy==1.18.0
+pandas==1.1.1
+scikit-learn==0.23.1
+matplotlib==3.3.0
+pillow==7.2.0
+seaborn==0.11.2
+tqdm==4.48.0
+absl-py==0.10.0
+scikit-image==0.17.2
+albumentations==0.5.2
+streamlit==0.71.0
+isort==5.6.4
+ipycanvas==0.7.0
+pycocotools==2.0.2
+easydict==1.9
+#tensorflow==2.3.1
+#tensorflow-gpu==2.3.1
+image-classifiers==1.0.0
+# tensorflow-addons 0.11 is not compatible with tf 2.4+ and 0.13 is not working with TF docker images (requires pip distributed TF)  
+tensorflow-addons==0.12.1
+pydot==1.4.0
+black
+isort 
+pretty-errors
+mypy #typing error checks
+pytype #
+Jinja2
+psutil
+opencv-python==4.5.5.62
+umap-learn
+plotly==5.7.0
+ipyfilechooser

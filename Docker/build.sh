@@ -1,0 +1,1 @@
+docker build --no-cache --rm -f Dockerfile -t tf2_trainer ..
