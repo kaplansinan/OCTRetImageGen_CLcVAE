@@ -3,6 +3,7 @@ DATA_DIR=/home/hodor/dev/GITHUB/OCTRetImageGen_CLcVAE/data/
 MODEL_REG_DIR=/home/hodor/dev/GITHUB/OCTRetImageGen_CLcVAE/reports/
 
 docker run \
+  --gpus all \
   -v $MAIN_DIR:/main \
   -v $DATA_DIR:/data/ \
   -v $MODEL_REG_DIR:/model_registry \
@@ -11,4 +12,4 @@ docker run \
   --shm-size 8G \
   --rm \
   -it tf2_trainer:latest \
-  bash
+  bash start_jupyter_notebook.sh
