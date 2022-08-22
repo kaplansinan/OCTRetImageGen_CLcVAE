@@ -61,7 +61,7 @@ We also provide the supplementary figures and algorithms mentioned in the repo. 
 
 **Maintainers**
 ---
-[Sinan Kaplan](#https://www.linkedin.com/in/kaplansinan/)
+[Sinan Kaplan](https://www.linkedin.com/in/kaplansinan/)
 
 🎯 Roadmap
 ---
