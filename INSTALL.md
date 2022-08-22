@@ -1,13 +1,13 @@
 ## Development Stack
 
-One may use Docker to conduct experiments descibed in the paper. To do so, simply follow the instructions below to install the development environment. 
+One may use Docker to conduct experiments described in the paper. To do so, simply follow the instructions below to install the development environment. 
 
 ### :whale: Docker Instructions
 
 
 1. Change working directory to Docker: `cd Docker`
 
-2. Build Docker image for developement by running `build.sh`. 
+2. Build Docker image for development by running `build.sh`. 
 
 
 
