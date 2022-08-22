@@ -16,35 +16,35 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 
 ```
 ├── LICENSE
-├── README.md          <- The top-level README for users of this project.
-├── INSTALLATION.md    <- Guidelines for users on how to install libraries/tools to conduct experiments.
-├── DATAONBOARDING.md  <- Information on how to download and use the data.
-├── EXPERIMENTS.md     <- Guidelines for users to train models.
+├── README.md                   <- The top-level README for users of this project.
+├── INSTALLATION.md             <- Guidelines for users on how to install libraries/tools to conduct experiments.
+├── DATAONBOARDING.md           <- Information on how to download and use the data.
+├── EXPERIMENTS.md              <- Guidelines for users to conduct experiment reported in the paper.
 ├── data
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── oct_test_all.csv        <- The list of images in the test set with path info in csv format.
+│   └── oct_train_all.csv       <- The list of images in train set with path info in csv format.
+│   └── oct_train_filtered.csv  <- The list of images in filtered train set with path info in csv format.
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── models                      <- Trained and serialized models, model predictions, or model summaries
 │
-├── notebooks          <- Jupyter notebooks for exploratory data analysis and model training
+├── notebooks                   <- Jupyter notebooks for exploratory data analysis and model training
 │
-├── reports            <- Generated supplementary materials.
-│   └── figures        <- Generated graphics and figures to be used in reporting
+├── reports                     <- Generated supplementary materials.
 │
 │
-├── src                <- Source code for use in this project.
+├── src                         <- Source code for use in this project.
 │   │
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
+│   ├── dataloader              <- Scripts to generate data for training
 │   │
-│   ├── models         <- Scripts to train models and then use trained models to make
-│   │   │                 predictions
-│   │   ├── predict_model.py
-│   │   └── train_model.py
+│   ├── models                  <- Scripts to build model for training
 │   │
-│  └── visualisation  <- Scripts to create exploratory and results oriented visualisations
-│       └── visualise.py
-└──
+│   ├── utils                   <- Scripts for utility functions
+│   │
+│   └── train_config.py         <- Training configurations
+│   
+└── start_jupyter_notebook.sh   <- Start jupytere notebook 
+└── download_data.sh            <- Download and extract OCT2017 data set
+└── requirements.txt            <- Required python libs to install 
 ```
 ## Getting Started
 ---
