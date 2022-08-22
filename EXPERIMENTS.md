@@ -24,7 +24,7 @@ Follow instructions in the below notebooks for training contrastive learning mod
 * **contrastive_model_training.ipynb**: domanstrates the training of contrastive learning model and extracting embeddings from filtered training set for the next step. 
 
 #### Step 4 - Train conditional variational autoencoder(cVAE) model
-Follow instructions in the below notebooks for training contrastive learning model. All the code is self-explanatory and commented as needed.
+Follow instructions in the below notebooks for training cVAE model. All the code is self-explanatory and commented as needed.
 
 * **conditional_variational_autoencoder_training.ipynb**: presents the training cVAE model step by step and generating new samples after each training run. As an example, we present the training and data generation only for CNV class but one may easily train and generate samples for other classes by following the instructions in the notebook. 
 
