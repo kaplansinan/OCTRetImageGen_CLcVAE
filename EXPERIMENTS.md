@@ -5,23 +5,23 @@ In this part, we provide details regarding how to conduct experiments including 
 
 #### Step 1 - Run Docker container 
 
-* After installating the docker container,  navigate to **Docker** directory by `cd Docker`. 
-* In `run.sh`, edit **DATA_DIR** path (data input path) and **MODEL_REG_DIR** path (where the models and outputs will be saved)
+* After installing the docker container,  navigate to **Docker** directory by `cd Docker`. 
+* In `run.sh`, edit **DATA_DIR** path (data input path) and **MODEL_REG_DIR** path (where the models and outputs will be saved).
 * Once the paths are ready, run the file by `sh run.sh` or `./run.sh`. This will start jupyter notebook server. You can access it by running `localhost:61499` on your browser. 
-* On your browser, navigate to **notebooks** directory, where you will find notebooks to conduct experiments. 
+* On the browser, navigate to **notebooks** directory, where you will find notebooks to conduct experiments. 
 
 #### Step 2 - Run Exploratory data analysis(EDA)
 We provide two jupyter notebooks for EDA, which are: 
 
-* **raw_train_data_eda.ipynb**: domanstrates the exploratory data analysis conducted for  all training set. 
-* **filtered_train_data_eda.ipynb**: domanstrates the exploratory data analysis conducted for filtered training set by the representative sampling algortihm given in the supplementary material. 
+* **raw_train_data_eda.ipynb**: demonstrates the exploratory data analysis conducted for  all training set. 
+* **filtered_train_data_eda.ipynb**: demonstrates the exploratory data analysis conducted for filtered training set by the representative sampling algortihm given in the supplementary material. 
 
 Follow instrcutions in the notebooks for EDA. All the code is self-explanatory and commented as needed. 
 
 #### Step 3 - Train contrastive learning model
 Follow instructions in the below notebooks for training contrastive learning model. All the code is self-explanatory and commented as needed.
 
-* **contrastive_model_training.ipynb**: domanstrates the training of contrastive learning model and extracting embeddings from filtered training set for the next step. 
+* **contrastive_model_training.ipynb**: demonstrates the training of contrastive learning model and extracting embeddings from filtered training set for the next step. 
 
 #### Step 4 - Train conditional variational autoencoder(cVAE) model
 Follow instructions in the below notebooks for training cVAE model. All the code is self-explanatory and commented as needed.
