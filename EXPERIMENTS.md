@@ -1,23 +1,30 @@
-In this part, we provide details regarding how to conduct experiments including data eda, contrastive learning training and conditional variationalautoencoder training.  After installating the docker container, edit the data paths and where the image will be saved in `run_docker.sh`.
+### EXPERIMENTS
 
-#### Run Dococker container`run_docker.sh`
-
- After installating the docker container, edit the data paths and where the image will be saved in `run_docker.sh`.
-
- Afterwards. run the docker container by run docker.sh' '
-
- This will start jupyter notebook on port 64399. Then go to localhost:64399 in your browser to access jupyter notebooks.
-
- ### Run experiments  i
- All the notebooks related to explortory data analysis and training can be found under notebooks dir. Simply navigate the notebooks and start each notebook.
-
- 1- run exploratory data analysis: 
- - drtrt.ipynb domanstrates the exploratory data analysis conducted for training set
- - drtrt.ipynb domanstrates the exploratory data analysis conducted for filtered training set
-
- 2- train contrastive learning model 
- - drtrt.ipynb domanstrates the training and extracting embeddings from training set for the next step. One can 
+In this part, we provide details regarding how to conduct experiments including Exploratory data analysis(EDA), contrastive learning training and conditional variational autoencoder training. Follow the below instructions step by step to run experiments succesfully. 
 
 
-3- train variational autoencoder model 
- - drtrt.ipynb: presents the training procecude step by step and generating new samples after each training run. 
+#### Step 1 - Run Docker container 
+
+* After installating the docker container,  navigate to **Docker** directory by `cd Docker`. 
+* In `run.sh`, edit **DATA_DIR** path (data input path) and **MODEL_REG_DIR** path (where the models and outputs will be saved)
+* Once the paths are ready, run the file by `sh run.sh` or `./run.sh`. This will start jupyter notebook server. You can access it by running `localhost:61499` on your browser. 
+* On your browser, navigate to **notebooks** directory, where you will find notebooks to conduct experiments. 
+
+#### Step 2 - Run Exploratory data analysis(EDA)
+We provide two jupyter notebooks for EDA, which are: 
+
+* **raw_train_data_eda.ipynb**: domanstrates the exploratory data analysis conducted for  all training set. 
+* **filtered_train_data_eda.ipynb**: domanstrates the exploratory data analysis conducted for filtered training set by the representative sampling algortihm given in the supplementary material. 
+
+Follow instrcutions in the notebooks for EDA. All the code is self-explanatory and commented as needed. 
+
+#### Step 3 - Train contrastive learning model
+Follow instructions in the below notebooks for training contrastive learning model. All the code is self-explanatory and commented as needed.
+
+* **contrastive_model_training.ipynb**: domanstrates the training of contrastive learning model and extracting embeddings from filtered training set for the next step. 
+
+#### Step 4 - Train conditional variational autoencoder(cVAE) model
+Follow instructions in the below notebooks for training contrastive learning model. All the code is self-explanatory and commented as needed.
+
+* **conditional_variational_autoencoder_training.ipynb**: presents the training cVAE model step by step and generating new samples after each training run. As an example, we present the training and data generation only for CNV class but one may easily train and generate samples for other classes by following the instructions in the notebook. 
+
