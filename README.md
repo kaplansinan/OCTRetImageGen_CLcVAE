@@ -43,7 +43,7 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 │   │
 │   └── train_config.py         <- Training configurations.
 │   
-└── start_jupyter_notebook.sh   <- Start jupytere notebook. 
+└── start_jupyter_notebook.sh   <- Start jupyter notebook. 
 └── download_data.sh            <- Download and extract OCT2017 data set.
 └── requirements.txt            <- Required python libs to install. 
 ```
