@@ -48,25 +48,26 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 ```
 ## Getting Started
 ---
-Please follow the insturction here to install development stack, dowload data and conduct experiments. 
+Please follow the insturction here to install development stack, dowload the data and conduct experiments. 
 
-* [INSTALL.md](INSTALL.md): Follow the insturction in this file to install development stack.
-* [DATAONBOARDING.md](DATAONBOARDING.md): Follow the insturction in this file to download the data
-* [EXPERIMENTS.md](EXPERIMENTS.md): Follow the insturction in this file to conduct explotary data analysis and train models.
+* [INSTALL.md](INSTALL.md): Follow the instructions in this file to install development stack.
+* [DATAONBOARDING.md](DATAONBOARDING.md): Follow the instructions in this file to download the data
+* [EXPERIMENTS.md](EXPERIMENTS.md): Follow the instructions in this file to conduct Exploratory data analysis(EDA) and train models.
 
 
 ## Supplementary Materials
 
-We also provide the supplementary figures mentioned in the repo. One may find it mode information regarding them under [reports](#reports) directory.
+We also provide the supplementary figures and algorithms mentioned in the repo. One may find more information regarding them under [reports](#reports) directory.
 
 **Maintainers**
 ---
+[Sinan Kaplan](#https://www.linkedin.com/in/kaplansinan/)
 
 🎯 Roadmap
 ---
 
 ### Checklist for setting an online repository 
 
-- [ ] Add a README file
-- [ ] Add a [CONTRIBUTING](CONTRIBUTING.md) file
-- [ ] Add a [LICENSE](LICENSE.md)
+- [x] Add a README file
+- [x] Add a [CONTRIBUTING](CONTRIBUTING.md) file
+- [x] Add a [LICENSE](LICENSE.md)
