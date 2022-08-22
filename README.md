@@ -20,31 +20,32 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 ├── INSTALLATION.md             <- Guidelines for users on how to install libraries/tools to conduct experiments.
 ├── DATAONBOARDING.md           <- Information on how to download and use the data.
 ├── EXPERIMENTS.md              <- Guidelines for users to conduct experiment reported in the paper.
+├── Docker                      <- Dockerfile and bash scripts for building and running docker image for experiments.
 ├── data
 │   ├── oct_test_all.csv        <- The list of images in the test set with path info in csv format.
 │   └── oct_train_all.csv       <- The list of images in train set with path info in csv format.
 │   └── oct_train_filtered.csv  <- The list of images in filtered train set with path info in csv format.
 │
-├── models                      <- Trained and serialized models, model predictions, or model summaries
+├── models                      <- Trained and serialized models, model predictions, or model summaries.
 │
-├── notebooks                   <- Jupyter notebooks for exploratory data analysis and model training
+├── notebooks                   <- Jupyter notebooks for exploratory data analysis and model training.
 │
 ├── reports                     <- Generated supplementary materials.
 │
 │
 ├── src                         <- Source code for use in this project.
 │   │
-│   ├── dataloader              <- Scripts to generate data for training
+│   ├── dataloader              <- Scripts to generate data for training.
 │   │
-│   ├── models                  <- Scripts to build model for training
+│   ├── models                  <- Scripts to build model for training.
 │   │
-│   ├── utils                   <- Scripts for utility functions
+│   ├── utils                   <- Scripts for utility functions.
 │   │
-│   └── train_config.py         <- Training configurations
+│   └── train_config.py         <- Training configurations.
 │   
-└── start_jupyter_notebook.sh   <- Start jupytere notebook 
-└── download_data.sh            <- Download and extract OCT2017 data set
-└── requirements.txt            <- Required python libs to install 
+└── start_jupyter_notebook.sh   <- Start jupytere notebook. 
+└── download_data.sh            <- Download and extract OCT2017 data set.
+└── requirements.txt            <- Required python libs to install. 
 ```
 ## Getting Started
 ---
