@@ -27,5 +27,5 @@ Follow instructions in the below notebooks for training contrastive learning mod
 Follow instructions in the below notebooks for training cVAE model. All the code is self-explanatory and commented as needed.
 
 * **conditional_variational_autoencoder_training.ipynb**: presents the training cVAE model step by step and generating new samples after each training run. As an example, we present the training and data generation only for CNV class but one may easily train and generate samples for other classes by following the instructions in the notebook.
-* * **train with all data**: follow instructions in `src/cvae_train.py` file  to run training over diseases (exclude healthy cases)
+* **train with all data**: follow instructions in `src/cvae_train.py` file  to run training over diseases (exclude healthy cases)
 
